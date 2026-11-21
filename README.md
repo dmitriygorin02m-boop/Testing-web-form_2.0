@@ -1,1 +1,1 @@
-[![Build status](https://ci.appveyor.com/api/projects/status/40r2c30l35qi3fnh?svg=true)](https://ci.appveyor.com/project/dmitriygorin02m-boop/testing-web-form-2-0)
+[![Java CI with Gradle](https://github.com/dmitriygorin02m-boop/Testing-web-form_2.0/actions/workflows/gradle.yml/badge.svg)](https://github.com/dmitriygorin02m-boop/Testing-web-form_2.0/actions/workflows/gradle.yml)
