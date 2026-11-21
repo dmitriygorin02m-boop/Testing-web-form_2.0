@@ -42,7 +42,7 @@ class CallbackTest {
     }
 
     @Test
-    void SendingACallbackFormUsingTheFormElement() {
+    void sendingACallbackFormUsingTheFormElement() {
         WebElement form = driver.findElement(By.tagName("form"));
         form.findElement(By.cssSelector("[data-test-id=name] input")).sendKeys("Василий");
         form.findElement(By.cssSelector("[data-test-id=phone] input")).sendKeys("+79270000000");
@@ -178,7 +178,6 @@ class CallbackTest {
 
         WebElement error = driver.findElement(
                 By.cssSelector("[data-test-id='phone'].input_invalid"));
-        ;
         assertTrue(error.isDisplayed());
         assertTrue(error.getText().contains("Телефон указан неверно"));
     }
